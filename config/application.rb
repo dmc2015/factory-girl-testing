@@ -17,5 +17,8 @@ module FactoryGirlTesting
     #   config.autoload_paths += %W{#{config.root}/lib}
     # end
 
+      config.generators do |g|
+        g.javascript_engine :js
+      end
   end
 end
