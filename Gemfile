@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'devise'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.4'
@@ -41,7 +42,6 @@ group :development, :test do
   gem 'capybara-webkit'
   gem 'database_cleaner'
   gem 'letter_opener'
-  gem 'pry-nav'
   gem 'simple_bdd'
   gem 'shoulda-matchers'
   gem 'spring'
